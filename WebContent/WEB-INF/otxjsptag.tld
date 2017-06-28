@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE taglib
+
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.2</jspversion>
+  <shortname>OTX Tag Library</shortname>
+  <uri></uri>
+  <info>
+    This tag library contains functionality specific to the webOTX
+    Application.
+  </info>
+
+
+  <tag>
+    <name>ScreenOrder</name>
+    <tagclass>jp.co.nec.webotx.jsp.taglib.ScreenOrderTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>      
+    ScreenOrder tag
+    </info>
+    <attribute>
+      <name>name</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>value</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+
+  <tag>
+    <name>CheckData</name>
+    <tagclass>jp.co.nec.webotx.jsp.taglib.CheckDataTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+    CheckData tag
+    </info>
+  </tag>
+
+  <tag>
+    <name>BtnInact</name>
+    <tagclass>jp.co.nec.webotx.jsp.taglib.BtnInactTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      BtnInact tag
+    </info>
+  </tag>
+
+  <tag>
+    <name>SubmitFrm</name>
+    <tagclass>jp.co.nec.webotx.jsp.taglib.SubmitFrmTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      SubmitFrm tag
+    </info>
+	<attribute>
+		<name>value</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>action</name>
+		<required>false</required>
+	</attribute>
+  </tag>
+
+  <tag>
+    <name>SubmitDoc</name>
+    <tagclass>jp.co.nec.webotx.jsp.taglib.SubmitDocTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      SubmitDoc tag
+    </info>
+	<attribute>
+		<name>value</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>action</name>
+		<required>false</required>
+	</attribute>
+  </tag>
+
+</taglib>
+
